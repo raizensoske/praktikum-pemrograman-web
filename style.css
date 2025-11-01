@@ -5,3 +5,18 @@ body {
   padding: 0;
   color: #333;
 }
+header {
+  background: #004aad;
+  color: #fff;
+  padding: 1rem 0;
+}
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.brand { font-size: 1.25rem; text-transform: lowercase; }
+nav a { color: white; text-decoration: none; margin-left: 1rem; }
