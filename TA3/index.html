@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova - Solusi Teknologi Modern</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="bg-white shadow-md">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">TechNova</h1>
+      <button class="md:hidden text-gray-600 focus:outline-none" id="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+      <ul class="hidden md:flex space-x-6 font-medium" id="menu">
+        <li><a href="#home" class="hover:text-blue-600">Beranda</a></li>
+        <li><a href="#features" class="hover:text-blue-600">Fitur</a></li>
+        <li><a href="#about" class="hover:text-blue-600">Tentang</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Kontak</a></li>
+      </ul>
+    </nav>
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden px-6 pb-4" id="mobile-menu">
+      <a href="#home" class="block py-2 hover:text-blue-600">Beranda</a>
+      <a href="#features" class="block py-2 hover:text-blue-600">Fitur</a>
+      <a href="#about" class="block py-2 hover:text-blue-600">Tentang</a>
+      <a href="#contact" class="block py-2 hover:text-blue-600">Kontak</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <div class="max-w-2xl mx-auto px-6">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Solusi Teknologi untuk Masa Depan</h2>
+      <p class="text-lg mb-6">Kami membantu bisnis Anda berkembang melalui inovasi digital dan solusi cerdas.</p>
+      <a href="#contact" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition">Hubungi Kami</a>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section id="features" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-12">Fitur Unggulan Kami</h3>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-gray-50 p-8 rounded-xl shadow hover:shadow-lg transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Kecepatan & Efisiensi</h4>
+          <p>Tingkatkan produktivitas dengan sistem kami yang cepat dan efisien.</p>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl shadow hover:shadow-lg transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 11c0-3.314-2.686-6-6-6S0 7.686 0 11s2.686 6 6 6 6-2.686 6-6zM18 11a6 6 0 100 12 6 6 0 000-12z" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Keamanan Data</h4>
+          <p>Data Anda terlindungi dengan enkripsi tingkat tinggi dan autentikasi aman.</p>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl shadow hover:shadow-lg transition">
+          <div class="text-blue-600 mb-4">
+            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 4.354a4 4 0 110 7.292M12 12v4m0 4h.01" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Dukungan 24/7</h4>
+          <p>Tim kami siap membantu kapan saja Anda membutuhkan bantuan teknis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Tentang TechNova</h3>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        TechNova adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital 
+        inovatif untuk berbagai industri. Kami berkomitmen memberikan layanan terbaik dalam 
+        pengembangan aplikasi, integrasi sistem, serta konsultasi teknologi untuk mendukung 
+        transformasi digital bisnis Anda.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-8">Hubungi Kami</h3>
+      <form class="bg-gray-50 p-8 rounded-xl shadow-md space-y-6">
+        <div>
+          <label class="block mb-2 font-medium">Nama</label>
+          <input type="text" placeholder="Masukkan nama Anda" class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Email</label>
+          <input type="email" placeholder="nama@email.com" class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Pesan</label>
+          <textarea rows="5" placeholder="Tulis pesan Anda di sini..." class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 py-6">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 TechNova. All rights reserved.</p>
+      <div class="flex space-x-4 mt-3 md:mt-0">
+        <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i> Facebook</a>
+        <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="#" class="hover:text-white"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toggle Mobile Menu Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
